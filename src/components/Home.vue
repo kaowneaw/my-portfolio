@@ -37,19 +37,18 @@
     <div class="content-timeline">
       <div class="row example-centered">
         <div class="col-md-12 example-title">
-          <h1 class="text-center title-head">Timeline</h1>
+          <h1 class="text-center title-head">Experience</h1>
         </div>
         <div class="col-md-12 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
           <ul class="timeline timeline-centered">
             <li class="timeline-item">
               <div class="timeline-info">
-                <span>Graduate</span>
+                <span>Work at AIS</span>
               </div>
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h3 class="timeline-title">2014</h3>
-                <p>Silpakorn University <br>
-                  Faculty of infomation and communication Technology</p>
+                <h3 class="timeline-title">2015 - PRESENT</h3>
+                <p>Web & Mobile Developer</p>
               </div>
             </li>
             <li class="timeline-item">
@@ -60,16 +59,6 @@
               <div class="timeline-content">
                 <h3 class="timeline-title">2014</h3>
                 <p>Web Developer & System Analysis</p>
-              </div>
-            </li>
-            <li class="timeline-item">
-              <div class="timeline-info">
-                <span>Work at AIS</span>
-              </div>
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">2015 - PRESENT</h3>
-                <p>Web & Mobile Developer</p>
               </div>
             </li>
           </ul>

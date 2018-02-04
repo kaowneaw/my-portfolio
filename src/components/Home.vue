@@ -34,31 +34,114 @@
         </div>
       </div>
     </div>
+    <div class="content-timeline">
+      <div class="row example-centered">
+        <div class="col-md-12 example-title">
+          <h1 class="text-center title-head">Timeline</h1>
+        </div>
+        <div class="col-md-12 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+          <ul class="timeline timeline-centered">
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>Graduate</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">2014</h3>
+                <p>Silpakorn University <br>
+                  Faculty of infomation and communication Technology</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>Work at NEXT-CORP</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">2014</h3>
+                <p>Web Developer & System Analysis</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>Work at AIS</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">2015 - PRESENT</h3>
+                <p>Web & Mobile Developer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="content-portfolio">
       <h1 class="text-center title-head">My Portfolio</h1>
       <div class="row">
         <div class="col-md-4">
           <div class="card form-group">
-            <img class="card-img-top" src="../assets/nb-iot.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <a href="#" target="_blank">
+              <img class="card-img-top" src="../assets/nb-iot.png" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-text">
+                  <h5>Magellan NB-IOT</h5>
+                  <small>IOT Platform</small>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card form-group">
-            <img class="card-img-top" src="../assets/nb-iot.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <a href="https://www.aischatapp.com" target="_blank">
+              <img class="card-img-top" src="../assets/chat-platform.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-text">
+                  <h5>Chat Platform</h5>
+                  <small>Chat for Organize</small>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card form-group">
-            <img class="card-img-top" src="../assets/nb-iot.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <a href="#" target="_blank">
+              <img class="card-img-top" src="../assets/doctor.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-text">
+                  <h5>AIS Wellness</h5>
+                  <small>Healthcare Platform</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card form-group">
+            <a href="https://play.google.com/store/apps/details?id=th.co.mimo.aistcdc&hl=th" target="_blank">
+              <img class="card-img-top" src="../assets/dc.png" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-text">
+                  <h5>AIS D.C.</h5>
+                  <small>Application for AIS D.C.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card form-group">
+            <a href="https://play.google.com/store/apps/details?id=th.co.mimo.aistcdc&hl=th" target="_blank">
+              <img class="card-img-top" src="../assets/ais-fiber.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-text">
+                  <h5>AIS FIBER ADMIN</h5>
+                  <small>Application Management Fiber Internet</small>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -101,6 +184,10 @@ export default {
     margin-bottom: 10px;
   }
 
+  .card:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
   .img-profile {
     width: 250px;
     height: 250px;
@@ -131,6 +218,11 @@ export default {
 
   .content-profile h1 {
     font-size: 3.5rem;
+    color: white;
+  }
+
+  .content-profile h2 {
+    color: white;
   }
 
   .info div:first-child {
@@ -143,6 +235,7 @@ export default {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    font-size: 16px;
   }
 
   .item-info div {
@@ -178,7 +271,7 @@ export default {
   }
 
   @media (max-width: 768px) {
-    .bg,.wrapper-head  {
+    .bg, .wrapper-head {
       height: 800px;
     }
   }

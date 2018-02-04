@@ -14,7 +14,10 @@ export default {
 </style>
 <style>
   @import url('https://fonts.googleapis.com/css?family=Roboto|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+  @import "assets/styles/timeline.css";
   body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F4F7F6 !important;
+    -webkit-font-smoothing: antialiased;
   }
 </style>

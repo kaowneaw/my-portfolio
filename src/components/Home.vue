@@ -92,7 +92,7 @@
           <div v-for="(skill, index) in skills" class="row mb-1" :key="index">
             <div class="col-sm-2">{{ skill.variant }}:</div>
             <div class="col-sm-10 pt-1">
-              <b-progress :value="skill.value" :variant="skill.variant" :key="skill.variant"></b-progress>
+              <b-progress :value="skill.value" :max="100" :variant="skill.variant" :key="skill.variant"></b-progress>
             </div>
           </div>
         </div>
@@ -116,6 +116,20 @@ export default {
       sliding: null,
       slidingImg: [],
       portfolios: [
+        {
+          title: 'อสม. ออนไลน์',
+          desc: 'Health Local Platform',
+          img: 'https://www.img.in.th/images/21aa80e83843bc92d0070064ce989cdb.jpg',
+          gallery: [
+            'https://www.img.in.th/images/7666e6081f06341dad10284c2eefae8a.jpg',
+            'https://www.img.in.th/images/f8f4831deb329c9a52a67486700a9cec.jpg',
+            'https://www.img.in.th/images/21aa80e83843bc92d0070064ce989cdb.jpg'
+          ],
+          src: {
+            type: 'web',
+            link: 'https://phc.ais.co.th'
+          }
+        },
         {
           title: 'Magellan NB-IOT',
           desc: 'IOT Platform',
@@ -194,9 +208,13 @@ export default {
       skills: [
         {variant: 'HTML5', value: 90},
         {variant: 'Css', value: 90},
-        {variant: 'JavaScript', value: 80},
+        {variant: 'Bootstrap', value: 90},
+        {variant: 'AngularJS', value: 80},
+        {variant: 'VueJS', value: 80},
         {variant: 'Android', value: 75},
+        {variant: 'NodeJS', value: 70},
         {variant: 'PHP', value: 70},
+        {variant: 'JAVA', value: 50},
         {variant: 'Docker', value: 50}
       ]
     }
